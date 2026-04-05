@@ -405,13 +405,3 @@ Sample tested error response:
 	"error": "Invalid record id"
 }
 ```
-
-## Suggested execution order (manual testing)
-
-1. Register user.
-2. Login and store token.
-3. Call `GET /api/users/profile` to confirm auth.
-4. Create records (admin).
-5. List/filter records.
-6. Open dashboard summary/categories/trends/activity.
-7. Check one negative case (invalid id or forbidden role) before final submission.
